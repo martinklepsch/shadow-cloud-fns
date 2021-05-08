@@ -4,8 +4,7 @@
                        :output-dir "out"
                        :output-to "src/http/get-nanoid/index.js"
                        :js-options {:js-package-dirs ["node_modules"]}
-                       :compiler-options {:optimizations :simple
-                                          :static-fns true
+                       :compiler-options {:static-fns true
                                           :source-map "src/http/get-nanoid/index.js.map"
                                           :reader-features #{:node}
                                           :fn-invoke-direct true}}
@@ -17,9 +16,8 @@
                                ;; to underscores in `src/http` tree
                                :output-to "src/http/get-another_nanoid/index.js"
                                :js-options {:js-package-dirs ["node_modules"]}
-                               :compiler-options {:optimizations :simple
-                                                  :static-fns true
-                                                  :source-map "src/http/get-another-nanoid/index.js.map"
+                               :compiler-options {:static-fns true
+                                                  :source-map "src/http/get-another_nanoid/index.js.map"
                                                   :reader-features #{:node}
                                                   :fn-invoke-direct true}}
 
@@ -28,8 +26,7 @@
                        :output-dir "out"
                        :output-to "src/http/get-random/index.js"
                        :js-options {:js-package-dirs ["node_modules"]}
-                       :compiler-options {:optimizations :simple
-                                          :static-fns true
+                       :compiler-options {:static-fns true
                                           :source-map "src/http/get-random/index.js.map"
                                           :reader-features #{:node}
                                           :fn-invoke-direct true}}
