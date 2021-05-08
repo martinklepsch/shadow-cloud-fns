@@ -10,6 +10,19 @@
                                           :reader-features #{:node}
                                           :fn-invoke-direct true}}
 
+          :get-another-nanoid {:target :node-library
+                               :exports-var acme.get-nanoid/another-exports
+                               :output-dir "out"
+                               ;; CAREFUL dashes in architect paths are changed
+                               ;; to underscores in `src/http` tree
+                               :output-to "src/http/get-another_nanoid/index.js"
+                               :js-options {:js-package-dirs ["node_modules"]}
+                               :compiler-options {:optimizations :simple
+                                                  :static-fns true
+                                                  :source-map "src/http/get-another-nanoid/index.js.map"
+                                                  :reader-features #{:node}
+                                                  :fn-invoke-direct true}}
+
           :get-random {:target :node-library
                        :exports-var acme.get-random/exports
                        :output-dir "out"

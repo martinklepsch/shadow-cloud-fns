@@ -8,6 +8,7 @@ src out/cljs-runtime
 @http
 get /
 get /nanoid
+get /another-nanoid
 get /random
 
 # @aws
