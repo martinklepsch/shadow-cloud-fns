@@ -34,17 +34,6 @@
                                           :reader-features #{:node}
                                           :fn-invoke-direct true}}
 
-          ; :fn-two {:target :node-library
-          ;          :exports-var entrypoints.fn-two/exports
-          ;          :output-dir "fn-two/out"
-          ;          :output-to "fn-two/index.js"
-          ;          :js-options {:js-package-dirs ["node_modules"]}
-          ;          :compiler-options {:optimizations :simple
-          ;                             :static-fns true
-          ;                             :source-map "out/fn-two/index.js.map"
-          ;                             :reader-features #{:node}
-          ;                             :fn-invoke-direct true}}
-
           ; less interesting
           ; :scripts   {:target :node-script
           ;             :main scripts.core/-main
