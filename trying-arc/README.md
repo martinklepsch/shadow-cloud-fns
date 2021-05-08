@@ -72,3 +72,5 @@ arc deploy --no-hydrate
 now node_modules is included in the package but the development files are not.
 It would be nice if shared stuff could be excluded from hydration somehow. Even
 the programmatic API for `architect/hydrate` seems to always call shared().
+
+See `build-arc-hydrate.sh` for a script to do this and to deploy
