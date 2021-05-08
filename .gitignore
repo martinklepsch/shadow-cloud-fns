@@ -2,3 +2,4 @@ out
 node_modules
 # should be added with script
 fn-one/out
+.shadow-cljs
