@@ -1,23 +1,23 @@
-{:source-paths ["src"]
+{:source-paths ["src/cljs"]
  :builds {:get-nanoid {:target :node-library
-                       :exports-var http.get-nanoid/exports
+                       :exports-var acme.get-nanoid/exports
                        :output-dir "out"
                        :output-to "src/http/get-nanoid/index.js"
                        :js-options {:js-package-dirs ["node_modules"]}
                        :compiler-options {:optimizations :simple
                                           :static-fns true
-                                          :source-map "out/http/get-nanoid/index.js.map"
+                                          :source-map "src/http/get-nanoid/index.js.map"
                                           :reader-features #{:node}
                                           :fn-invoke-direct true}}
 
           :get-random {:target :node-library
-                       :exports-var http.get-random/exports
+                       :exports-var acme.get-random/exports
                        :output-dir "out"
                        :output-to "src/http/get-random/index.js"
                        :js-options {:js-package-dirs ["node_modules"]}
                        :compiler-options {:optimizations :simple
                                           :static-fns true
-                                          :source-map "out/http/get-random/index.js.map"
+                                          :source-map "src/http/get-random/index.js.map"
                                           :reader-features #{:node}
                                           :fn-invoke-direct true}}
 

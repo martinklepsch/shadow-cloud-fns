@@ -1,4 +1,4 @@
-(ns http.get-random
+(ns acme.get-random
   (:require ["crypto-random-string" :as gr]))
 
 (def exports

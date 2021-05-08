@@ -1,4 +1,4 @@
-(ns http.get-nanoid
+(ns acme.get-nanoid
   (:require ["nanoid" :as nanoid]))
 
 (def exports

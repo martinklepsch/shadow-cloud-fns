@@ -3,7 +3,7 @@ trying-arc
 
 # this ensures all compiled JS code is available
 @shared
-src out/http/get-nanoid/cljs-runtime
+src out/cljs-runtime
 
 @http
 get /
