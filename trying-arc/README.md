@@ -50,6 +50,8 @@ artifacts (the nanoid ones are 23kb zipped).
 
 - [ ] `ncc` probably breaks the source maps that shadow-cljs generated
 
+![](https://p22.tr4.n0.cdn.getcloudapp.com/items/xQubmo66/b421c5f4-6a0d-4d71-85c1-cf9f0da7a271.png?v=9f61420cafb2bb1a4173d8b1d7e22737)
+
 ### architect 
 
 [architect's hydration](https://github.com/architect/hydrate/) adds
@@ -74,3 +76,5 @@ It would be nice if shared stuff could be excluded from hydration somehow. Even
 the programmatic API for `architect/hydrate` seems to always call shared().
 
 See `build-arc-hydrate.sh` for a script to do this and to deploy
+
+![](https://p22.tr4.n0.cdn.getcloudapp.com/items/WnuY98xy/c87c67f4-0284-4906-a635-5e6a3616a05e.png?source=viewer&v=b4400660830b644822c3202ce1677ca6)
